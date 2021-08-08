@@ -1,0 +1,45 @@
+h1 {
+    text-align: center;
+    margin: 10px 0;
+    font-family: 'Yeon Sung';
+    color: purple;
+}
+
+#contact {
+    min-height: 92vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.myForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.myInput {
+    font-size: 20px;
+    width: 45vw;
+    padding: 10px;
+    margin: 9px;
+    border: 2px solid purple;
+    border-radius: 10px;
+    outline: none;
+    display: block;
+}
+
+.btn {
+    border: 2px solid white;
+    border-radius: 12px;
+    background-color: purple;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    font-size: 24px;
+    padding: 8px 35px;
+    margin: 25px;
+}

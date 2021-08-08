@@ -1,0 +1,146 @@
+/* Navigation Bar  */
+
+#navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#navbar ul li a {
+    font-size: 1.8rem;
+    padding-bottom: 8px;
+    padding: 0px 16px;
+}
+
+/* Logo  */
+
+#logo img {
+    height: 50px;
+}
+
+#logo {
+    font-size: 1.8rem;
+}
+
+/* Intro Section  */
+
+#introSection #txt {
+    font-size: 2.4rem;
+}
+
+/* About Section  */
+
+#aboutSection {
+    height: 1317px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+#about-card-img {
+    margin-top: 40px;
+    display: flex;
+}
+
+#about-card-img img {
+    width: 85vw;
+    margin: auto;
+}
+
+#about-content p {
+    font-size: 2.4rem;
+}
+
+#about-content {
+    position: relative;
+    margin-top: 370px;
+}
+
+#aboutSection h2 {
+    margin-top: -341px;
+}
+
+/* Services Section*/
+
+#card {
+    flex-direction: column;
+}
+
+.services-card {
+    padding: 15px;
+    margin: 4px 0px;
+    margin-bottom: 18px;
+}
+
+/* Class-Info  */
+
+.class {
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.class-card {
+    flex-wrap: wrap;
+    padding: 15px;
+    margin: 4px 0px;
+    margin-bottom: 18px;
+}
+
+#class-info::before {
+    height: 3382px;
+}
+
+.class {
+    margin: 1px;
+}
+
+.class-card {
+    width: 80vw;
+}
+
+.class-card img {
+    width: 350px;
+}
+
+.class-card h2 {
+    font-size: 2rem;
+}
+
+.class-card p {
+    font-size: 1.7rem;
+}
+
+/* Contact Us  */
+
+#contact h1 {
+    font-size: 3rem;
+    margin-bottom: 45px;
+}
+
+.btn {
+    font-size: 1.8rem;
+    padding: 15px 55px;
+    border-radius: 21px;
+    margin-bottom: 100px;
+}
+
+.myInput {
+    zoom: 190%;
+}
+
+/* Footer  */
+
+#footer {
+    font-size: 1.5rem;
+    height: 65px;
+    text-align: center;
+}
+
+/* Utility Classes  */
+
+.h-primary {
+    font-size: 2.3rem;
+}
